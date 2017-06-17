@@ -4,3 +4,7 @@
 // insertOne()
 // updateOne()
 // Export the ORM object in module.exports.
+
+var connection = require("./connection.js");
+
+module.exports = orm;
