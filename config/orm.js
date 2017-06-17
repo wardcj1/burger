@@ -6,5 +6,8 @@
 // Export the ORM object in module.exports.
 
 var connection = require("./connection.js");
+var selectAll = "SELECT * FROM " + tableInput + ";";
+var insertOne = "INSERT INTO " + table;
+var updateOne = "UPDATE " + table;
 
 module.exports = orm;
